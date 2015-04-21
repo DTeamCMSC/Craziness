@@ -1,4 +1,4 @@
-<form action="Signup.php" method="post">
+<form action="index.php" method="post">
 First name: <br>
    <input type="text" name="name" maxlength="20" minlength = "3">
 <br> <br>
@@ -8,6 +8,9 @@ Last Name: <br>
 Student ID: <br>
    <input type="text" name='Id' maxlength="7" minlength = "7">
 <br> <br>
+Email <br>
+    <input type="text" name='Email' max length="20" minlength = "8">
+    <br><br>
 Major: <br>
    <select name="major" > 
 	<option value="Undecided">Undecided</option>
